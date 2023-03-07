@@ -8,11 +8,25 @@ Page {
 
     // The effective value will be restricted by ApplicationWindow.allowedOrientations
     allowedOrientations: Orientation.Portrait
-
     WebView {
-        id: web_view
+        id: webView
         url: "../html/index.html"
         anchors.fill: parent
+        Component.onCompleted: {
+            WebEngineSettings.setPreference("security.disable_cors_checks", true, WebEngineSettings.BoolPref)
+            WebEngineSettings.setPreference("security.fileuri.strict_origin_policy", false, WebEngineSettings.BoolPref)
+            WebEngineSettings.setPreference("screenshots.browser.component.enabled", true, WebEngineSettings.BoolPref)
+        }
+
+    }
+
+    onStatusChanged: {
+        if (status == PageStatus.Active) {
+            calcitApp.grabToImage(function(result) {
+                console.log(result.url)
+                calcitApp.thumbnail = result.url;
+            });
+        }
     }
 }
 

@@ -28,6 +28,19 @@ BuildRequires:  desktop-file-utils
 %description
 A math game resembling wordle.
 
+%if "%{?vendor}" == "chum"
+PackageName: harbour-calcit
+Type: desktop-application
+Categories:
+ - Game
+DeveloperName: Mark Washeim (poetaster)
+Custom:
+ - Repo: https://github.com/poetaster/calcit
+Icon: https://github.com/poetaster/calcit/raw/main/icons/128x128/harbour-calcit.png
+Screenshots:
+ - https://raw.githubusercontent.com/poetaster/calcit/main/screenshot-2.png
+ - https://raw.githubusercontent.com/poetaster/calcit/main/screenshot-3.png
+%endif
 
 %prep
 %setup -q -n %{name}-%{version}

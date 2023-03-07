@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Application
 X-Nemo-Application-Type=silica-qt5
-Icon=calcit
+Icon=harbour-calcit
 Exec=sailfish-qml harbour-calcit
 Name=calcit
 # translation example:

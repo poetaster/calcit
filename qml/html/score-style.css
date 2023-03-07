@@ -1,13 +1,13 @@
 
 body{
-    background-color:#56629D;
+    background-color:lightgrey;
 
 }
 
 label{
     font-size: 28px;
     margin: 3px;
-    animation: glowing 3s infinite;
+    /*animation: glowing 3s infinite;*/
 
 }
 
@@ -20,22 +20,21 @@ label{
 
 
 input[type='text']{
-    background-color: #56629D;
-    height: 25px;
-    width: 50px;
-    font-size: 25px;
-    text-align: center;
-    padding:10px;
-    border-radius:10px;
-    margin: 3px;
-    
-    
-}
 
+    background-color: #56629D;
+    height: 7vw;
+    width: 7vw;
+    font-size: 5vw;
+    font-weight:800;
+    text-align: center;
+    padding:1vw;
+    border-radius:5px;
+    margin: 1px;
+}
 h1 {
     color:firebrick;
     font-family: arial, sans-serif;
-    font-size: 50px;
+    font-size: 8vw;
     font-weight: bold;
     margin-top: 0px;
     margin-bottom: 1px;
@@ -53,13 +52,13 @@ h1 {
 
 
 .scoreScreen{
-    background-color: #7D86B1 ;
+    background-color: lightgrey ;
     margin: auto;
-    width: 50%;
-    padding: 100px;
+    width: 80%;
+    padding: 1vw;
     text-align: center; 
     display: table;
-    animation: glowing 3s infinite;
+/*    animation: glowing 3s infinite;*/
 
 }
 
@@ -74,7 +73,7 @@ h1 {
     border-radius: 12px;
     padding: 16px 32px;
     background-color: #00b3b3;
-    animation: whitAnimathion 3s infinite;
+    /*animation: whitAnimathion 3s infinite;*/
     font-size: 15px;
 }
 
@@ -91,6 +90,4 @@ h1 {
 
 .guessStatistics{
     margin: 50px;
-    
-    
 }

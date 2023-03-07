@@ -19,7 +19,6 @@ DISTFILES += \
     qml/cover/CoverPage.qml \
     qml/harbour-calcit.qml \
     qml/pages/FirstPage.qml \
-    rpm/harbour-calcit.yaml \
     rpm/harbour-calcit.spec \
     rpm/harbour-calcit.changes.in \
     rpm/harbour-calcit.changes.run.in \
