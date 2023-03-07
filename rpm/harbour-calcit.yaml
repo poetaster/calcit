@@ -1,19 +1,19 @@
-Name: calcit
+Name: harbour-calcit
 Summary: Calcit Math Game
 Version: 0.1.0
 Release: 1
 # The contents of the Group field should be one of the groups listed here:
 # https://github.com/mer-tools/spectacle/blob/master/data/GROUPS
 Group: Qt/Qt
-URL: http://example.org/
+URL: http://github.com/poetaster/calcit
 BuildArch: noarch
-License: LICENSE
+License: GPLv3
 # This must be generated before uploading a package to a remote build service.
 # Usually this line does not need to be modified.
 Sources:
 - '%{name}-%{version}.tar.bz2'
 Description: |
-  Short description of my Sailfish OS Application
+  A math game resembling wordle.
 Builder: qmake5
 
 # This section specifies build dependencies that are resolved using pkgconfig.

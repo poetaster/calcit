@@ -19,11 +19,10 @@ DISTFILES += \
     qml/cover/CoverPage.qml \
     qml/harbour-calcit.qml \
     qml/pages/FirstPage.qml \
-    qml/pages/SecondPage.qml \
-    rpm/calcit.changes.in \
-    rpm/calcit.changes.run.in \
-    rpm/calcit.spec \
-    rpm/calcit.yaml \
+    rpm/harbour-calcit.yaml \
+    rpm/harbour-calcit.spec \
+    rpm/harbour-calcit.changes.in \
+    rpm/harbour-calcit.changes.run.in \
     translations/*.ts
 
 SAILFISHAPP_ICONS = 86x86 108x108 128x128 172x172
@@ -36,4 +35,4 @@ SAILFISHAPP_ICONS = 86x86 108x108 128x128 172x172
 # planning to localize your app, remember to comment out the
 # following TRANSLATIONS line. And also do not forget to
 # modify the localized app name in the the .desktop file.
-TRANSLATIONS += translations/calcit-de.ts
+TRANSLATIONS += translations/harbour-calcit-de.ts
