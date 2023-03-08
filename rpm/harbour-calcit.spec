@@ -16,7 +16,6 @@ License:    GPLv3
 BuildArch:  noarch
 URL:        http://github.com/poetaster/calcit
 Source0:    %{name}-%{version}.tar.bz2
-Source100:  harbour-calcit.yaml
 Requires:   sailfishsilica-qt5 >= 0.10.9
 Requires:   libsailfishapp-launcher
 BuildRequires:  pkgconfig(sailfishapp) >= 1.0.3
