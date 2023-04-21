@@ -120,6 +120,10 @@ input[type='text']{
     touch-action: manipulation;
 }
 
+.back-button {
+    touch-action: manipulation;
+}
+
 
 .btn:hover{
     border: 2px solid  #00ffff; 
