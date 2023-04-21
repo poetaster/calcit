@@ -2,7 +2,7 @@ window.onload = (event) => {
     var win = localStorage.getItem("win"); //bool if player won last game
     var won = document.getElementById('won');
     var played = document.getElementById('played');
-    var wonPersent = document.getElementById('won%');
+    var wonPercent = document.getElementById('won%');
 
     var counterNumOfPlayed = localStorage.getItem("numberOfPlayed");
     played.value = counterNumOfPlayed; //set num of game played
@@ -23,7 +23,7 @@ window.onload = (event) => {
 
     var counterNumOfWins = localStorage.getItem("score");
     won.value = counterNumOfWins;
-    wonPersent.value = counterNumOfWins / played.value;
+    wonPercent.value = counterNumOfWins / played.value * 100;
 };
 
 function setGuessStatistics() {

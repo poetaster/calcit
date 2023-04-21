@@ -1,6 +1,7 @@
 
 body{
     background-color:lightgrey;
+    touch-action: manipulation;
 }
 
 
@@ -71,6 +72,7 @@ h1 {
 label{
     font-size: 3vw;
     margin: 3px;
+    touch-action: manipulation;
 }
 
 
@@ -85,6 +87,7 @@ input[type='text']{
     padding:1vw;
     border-radius:5px;
     margin: 1px;
+    touch-action: manipulation;
 }
 
 .mainScrean{
@@ -94,14 +97,17 @@ input[type='text']{
     width: 100%;
     padding: 1vw;
     text-align: center;   
+    touch-action: manipulation;
 }
 
 .matrix{
     /* background-color: #7D86B1 ; */
+    touch-action: manipulation;
 }
 
 .calc{
     /* background-color: #7D86B1 ; */
+    touch-action: manipulation;
 }
 
 
@@ -111,18 +117,18 @@ input[type='text']{
     background-color: #00b3b3;
     /* animation: whitAnimathion 3s infinite; */
     font-size: 15px;
-
-    
+    touch-action: manipulation;
 }
 
 
 .btn:hover{
     border: 2px solid  #00ffff; 
-
     border-color: #00ffff;
+    touch-action: manipulation;
 }
 .btn:active{
     background-color: #00ffff;
+    touch-action: manipulation;
 }
 
 .calcButton{
@@ -130,18 +136,18 @@ input[type='text']{
     padding: 2vw 4vw;
     background-color: #00b3b3;
     font-size: 5vw;
-
-
+    touch-action: manipulation;
     /* animation: whitAnimathion 3s infinite; */
 }
 
 .calcButton:hover{
     border: 2px solid  #00ffff; 
-
     border-color: #00ffff;
+    touch-action: manipulation;
 }
 .calcButton:active{
     background-color: #00ffff;
+    touch-action: manipulation;
 }
 
 
@@ -149,6 +155,7 @@ input[type='text']{
     width: 100%; 
     height: 100%;
     margin-top:30px;
+    touch-action: manipulation;
     
 }
 
@@ -217,12 +224,3 @@ input[type='text']{
     75% { transform: rotateZ(5deg) rotateY(1080deg) translate(-10vw,80vh); }
     100% { transform: rotateZ(15deg) rotateY(1440deg) translate(10vw,110vh); }
 }
-
-
-
-
-
-
-
-
-
